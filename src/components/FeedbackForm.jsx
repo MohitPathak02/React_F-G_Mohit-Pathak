@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./FeedbackForm.css";
+import "./Feedbackform.css"
 
 const FeedbackForm = ({ onSubmit }) => {
   const [formData, setFormData] = useState({ name: "", email: "", phone: "" });
